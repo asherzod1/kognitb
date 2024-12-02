@@ -8,23 +8,10 @@ export default function Home() {
 
             <div className="xl:max-w-[1110px] my-0 mx-auto w-[90%]">
                 <div className="h-[80px] flex items-center justify-between">
-                    <a href="#"><img
-                        height={50}
-                        width={100}
-                        className={"block md:hidden"}
-                        src="/invirep-logo.webp"
-                        alt="инвиреп"
-                        loading={"lazy"}
-
-                    />
-                        <img
-                            width={150}
-                            height={100}
-                            className={"hidden md:block"}
-                            src="/invirep-logo.webp"
-                            alt="invirep"
-                            loading={"lazy"}
-                        />
+                    <a href="#">
+                        <span className={"text-xl md:text-3xl font-semibold"} style={{userSelect: "none"}}>
+                            КогнитB®
+                        </span>
                     </a>
                     <h3 className="text-[11px] md:text-[18px] md:block font-medium">Tel: +998 99 694 23 63</h3>
                 </div>
@@ -36,7 +23,7 @@ export default function Home() {
                             width={600}
                             className="hidden md:block"
                             src="/kognit1.webp"
-                            alt="инвиреп"
+                            alt="КогнитB"
                             loading={"lazy"}
                         />
                         <img
@@ -44,7 +31,7 @@ export default function Home() {
                             width={300}
                             className="block md:hidden"
                             src="/kognit1.webp"
-                            alt="Invirep"
+                            alt="КогнитB"
                             loading={"lazy"}
                         />
                         {/*<img*/}

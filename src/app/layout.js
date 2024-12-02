@@ -7,11 +7,11 @@ import {NextSeo} from "next-seo";
 const inter = Inter({subsets: ['latin']})
 
 export const metadata = {
-    title: 'ИНВИРЕП',
-    description: 'Invirep - ИНВИРЕП',
-    url: 'https://invirep.vercel.app',
-    image: 'https://invirep.vercel.app/INVIREP-logo.png',
-    content: 'ИНВИРЕП',
+    title: 'КогнитB',
+    description: 'KognitB - КогнитB',
+    url: 'https://kognitb.vercel.app',
+    image: 'https://kognitb.vercel.app/kognit1.webp',
+    content: 'KognitB - КогнитB',
 }
 
 export default function RootLayout({children}) {
@@ -19,19 +19,19 @@ export default function RootLayout({children}) {
         <html lang="en">
         <head>
             <meta name="google-site-verification" content="EeNrX_Vhd4bMEJnslGv6D89shImpFKT1eTXHeeqUF8I"/>
-            <link rel="canonical" href="https://www.invirep.uz/" />
-            <meta property="og:url" content="https://invirep.uz/" />
-            <meta property="og:title" content="ИНВИРЕП" />
-            <meta property="og:description" content="ИНВИРЕП" />
-            <meta property="og:image" content="https://invirep.vercel.app/INVIREP-logo.png" />
+            <link rel="canonical" href="https://www.kognitb.uz/" />
+            <meta property="og:url" content="https://kognitb.uz/" />
+            <meta property="og:title" content="КогнитB" />
+            <meta property="og:description" content="КогнитB" />
+            <meta property="og:image" content="https://kognitb.vercel.app/kognit1.webp" />
             <meta property="og:image:width" content="800" />
             <meta property="og:image:height" content="600" />
-            <meta property="og:image" content="https://invirep.vercel.app/Invirep.png" />
+            <meta property="og:image" content="https://kognitb.vercel.app/kognit1.webp" />
             <meta property="og:image:width" content="900" />
             <meta property="og:image:height" content="800" />
-            <meta property="og:image" content="https://invirep.vercel.app/Invirep.png" />
-            <meta property="og:image" content="https://invirep.vercel.app/Invirep.png" />
-            <meta property="og:site_name" content="ИНВИРЕП" />
+            <meta property="og:image" content="https://kognitb.vercel.app/kognit1.webp" />
+            <meta property="og:image" content="https://kognitb.vercel.app/kognit1.webp" />
+            <meta property="og:site_name" content="КогнитB" />
             {/* Telegram */}
             <meta property="telegram:channel" content="@SpringPharmaceutic" />
             {/*Instagram*/}
