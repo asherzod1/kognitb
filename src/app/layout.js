@@ -18,7 +18,7 @@ export default function RootLayout({children}) {
     return (
         <html lang="en">
         <head>
-            <meta name="google-site-verification" content="EeNrX_Vhd4bMEJnslGv6D89shImpFKT1eTXHeeqUF8I"/>
+            <meta name="google-site-verification" content="CAsdUMwCIe87epyFLMFWK0JauvzAQFtFj0tg0mzvEns"/>
             <link rel="canonical" href="https://www.kognitb.uz/" />
             <meta property="og:url" content="https://kognitb.uz/" />
             <meta property="og:title" content="КогнитB" />
