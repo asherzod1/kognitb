@@ -1,3 +1,25 @@
+export const metadata = {
+    title: 'КогнитB® Таблетки №30 - Инструкция по применению',
+    description: 'КогнитB® таблетки №30 - биологически активная добавка для улучшения когнитивных функций, памяти и концентрации внимания. Содержит Гинкго билоба, магний, глицин, L-триптофан и витамины группы В.',
+    keywords: 'КогнитB, Когнит B, таблетки, гинкго билоба, память, концентрация, БАД, Spring Pharmaceutic',
+    openGraph: {
+        title: 'КогнитB® Таблетки №30',
+        description: 'Для улучшения когнитивных функций, памяти и концентрации внимания',
+        url: 'https://kognitb.uz/tablet',
+        siteName: 'КогнитB',
+        images: [
+            {
+                url: 'https://kognitb.uz/kognitb_tabletka.webp',
+                width: 800,
+                height: 600,
+                alt: 'КогнитB таблетки №30',
+            },
+        ],
+        locale: 'ru_RU',
+        type: 'website',
+    },
+};
+
 export default function Tablet() {
     return (
         <>

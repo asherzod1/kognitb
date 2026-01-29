@@ -2,54 +2,47 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
-        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
->
+    <!-- Главная страница - Сироп -->
     <url>
-        <loc>https://www.invirep.uz/</loc>
-        <lastmod>2023-08-21T08:19:34+00:00</lastmod>
+        <loc>https://www.kognitb.uz/</loc>
+        <lastmod>2026-01-30</lastmod>
+        <changefreq>monthly</changefreq>
         <priority>1.00</priority>
-    </url>
-    <url>
-        <loc>https://www.invirep.uz/instruction_ru.docx</loc>
-        <lastmod>2023-08-21T08:19:34+00:00</lastmod>
-        <priority>0.80</priority>
-    </url>
-    <url>
-        <loc>https://www.invirep.uz/instruction_uz.docx</loc>
-        <lastmod>2023-08-21T08:19:34+00:00</lastmod>
-        <priority>0.80</priority>
-    </url>
-    <url>
-        <loc>https://www.invirep.uz/Invirep.webp</loc>
         <image:image>
-            <image:loc>https://www.invirep.uz/Invirep.webp</image:loc>
-            <image:title>Invirep</image:title>
-            <image:caption>Invirep, инвиреп</image:caption>
+            <image:loc>https://www.kognitb.uz/kognit1.webp</image:loc>
+            <image:title>КогнитB сироп 100 мл</image:title>
+            <image:caption>КогнитB сироп - для улучшения когнитивных функций</image:caption>
         </image:image>
     </url>
+
+    <!-- Страница Таблетки -->
     <url>
-        <loc>https://www.invirep.uz/Invirep.webp</loc>
+        <loc>https://www.kognitb.uz/tablet</loc>
+        <lastmod>2026-01-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.90</priority>
         <image:image>
-            <image:loc>https://www.invirep.uz/Invirep.webp</image:loc>
-            <image:title>инвиреп</image:title>
-            <image:caption>Invirep, инвиреп</image:caption>
+            <image:loc>https://www.kognitb.uz/kognitb_tabletka.webp</image:loc>
+            <image:title>КогнитB таблетки №30</image:title>
+            <image:caption>КогнитB таблетки - для улучшения когнитивных функций</image:caption>
         </image:image>
     </url>
+
+    <!-- PDF инструкции -->
     <url>
-        <loc>https://www.invirep.uz/invirep-logo.webp</loc>
-        <image:image>
-            <image:loc>https://www.invirep.uz/invirep-logo.webp</image:loc>
-            <image:title>инвиреп</image:title>
-            <image:caption>Invirep, инвиреп</image:caption>
-        </image:image>
+        <loc>https://www.kognitb.uz/Kognit%20B%20instruksiya.pdf</loc>
+        <lastmod>2026-01-30</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.60</priority>
     </url>
+
     <url>
-        <loc>https://www.invirep.uz/invirep-logo.webp</loc>
-        <image:image>
-            <image:loc>https://www.invirep.uz/invirep-logo.webp</image:loc>
-            <image:title>Invirep</image:title>
-            <image:caption>Invirep, инвиреп</image:caption>
-        </image:image>
+        <loc>https://www.kognitb.uz/docs.pdf</loc>
+        <lastmod>2026-01-30</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.60</priority>
     </url>
+
 </urlset>
