@@ -9,7 +9,7 @@ export const metadata = {
         siteName: 'КогнитB',
         images: [
             {
-                url: 'https://kognitb.uz/kognitb_tabletka.webp',
+                url: 'https://kognitb.uz/kognitb_tablets.webp',
                 width: 800,
                 height: 600,
                 alt: 'КогнитB таблетки №30',
@@ -43,7 +43,7 @@ export default function Tablet() {
                             height={600}
                             width={600}
                             className="hidden md:block"
-                            src="/kognitb_tabletka.webp"
+                            src="/kognitb_tablets.webp"
                             alt="КогнитB таблетки"
                             loading={"lazy"}
                         />
@@ -51,7 +51,7 @@ export default function Tablet() {
                             height={300}
                             width={300}
                             className="block md:hidden"
-                            src="/kognitb-tablet.png"
+                            src="/kognitb-tablets.webp"
                             alt="КогнитB таблетки"
                             loading={"lazy"}
                         />
