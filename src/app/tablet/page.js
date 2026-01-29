@@ -51,7 +51,7 @@ export default function Tablet() {
                             height={300}
                             width={300}
                             className="block md:hidden"
-                            src="/kognitb-tablets.webp"
+                            src="/kognitb_tablets.webp"
                             alt="КогнитB таблетки"
                             loading={"lazy"}
                         />
