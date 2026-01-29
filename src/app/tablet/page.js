@@ -1,11 +1,6 @@
-import { NextSeo } from "next-seo";
-
-
-export default function Home() {
-
+export default function Tablet() {
     return (
         <>
-
             <div className="xl:max-w-[1110px] my-0 mx-auto w-[90%]">
                 <div className="h-[80px] flex items-center justify-between">
                     <a href="/">
@@ -14,34 +9,30 @@ export default function Home() {
                         </span>
                     </a>
                     <div className="flex items-center gap-4 md:gap-6">
-                        <a href="/" className="text-[12px] md:text-[16px] font-medium text-[#0C54A0] border-b-2 border-[#0C54A0]">Сироп</a>
-                        <a href="/tablet" className="text-[12px] md:text-[16px] font-medium text-gray-600 hover:text-[#0C54A0]">Таблетки</a>
+                        <a href="/" className="text-[12px] md:text-[16px] font-medium text-gray-600 hover:text-[#0C54A0]">Сироп</a>
+                        <a href="/tablet" className="text-[12px] md:text-[16px] font-medium text-[#0C54A0] border-b-2 border-[#0C54A0]">Таблетки</a>
                         <h3 className="text-[11px] md:text-[18px] font-medium hidden md:block">Tel: +998 99 694 23 63</h3>
                     </div>
                 </div>
                 <div className="mt-[50px]">
-                    <h2 className="font-semibold text-center text-4xl font-roboto">«Когнит B® » сироп 100 мл</h2>
+                    <h2 className="font-semibold text-center text-4xl font-roboto">«Когнит B® » таблетки №30</h2>
                     <div className="flex justify-center">
                         <img
                             height={600}
                             width={600}
                             className="hidden md:block"
-                            src="/kognit1.webp"
-                            alt="КогнитB"
+                            src="/kognitb_tabletka.webp"
+                            alt="КогнитB таблетки"
                             loading={"lazy"}
                         />
                         <img
                             height={300}
                             width={300}
                             className="block md:hidden"
-                            src="/kognit1.webp"
-                            alt="КогнитB"
+                            src="/kognitb-tablet.png"
+                            alt="КогнитB таблетки"
                             loading={"lazy"}
                         />
-                        {/*<img*/}
-                        {/*    className="h:[50vh] md:h-[60vh]"*/}
-                        {/*    src="/Invirep.webp"*/}
-                        {/*    alt="invirep, ИНВИРЕП"/>*/}
                     </div>
                     <h3 className="text-xl md:text-2xl mt-5 text-[#0C54A0] font-semibold font-roboto mb-3">
                         ИНСТРУКЦИЯ ПО МЕДИЦИНСКОМУ ПРИМЕНЕНИЮ
@@ -52,26 +43,20 @@ export default function Home() {
                         <div className="mb-4"><strong className="font-medium"><span className="text-[#0C54A0]">Торговое название: </span> Когнит
                             B®</strong>
                         </div>
-                        <div className="mb-4"><strong className="font-medium"><span className="text-[#0C54A0]">Лекарственная форма: </span> сироп</strong>
+                        <div className="mb-4"><strong className="font-medium"><span className="text-[#0C54A0]">Лекарственная форма: </span> таблетка</strong>
                         </div>
                         <div className="mb-4"><strong className="font-medium"><span
-                            className="text-[#0C54A0]">Состав: </span> 1 мл сиропа для перорального потребления содержит
-                            экстракт гинкго билобы - 4 мг/мл, магний
-                            (магния цитрат) - 3 мг/мл, глицин - 2,5 мг/мл , триптофан (L - триптофан) - 2,5 мг/мл,
+                            className="text-[#0C54A0]">Состав: </span> 1 таблетка для перорального потребления содержит
+                            измельчённое растительное сырьё Гинкго билобы - 120 мг, магний
+                            (магния цитрат) - 100 мг, глицин - 25 мг , триптофан (L - триптофан) - 25 мг,
                             витамин В3
-                            (никотиновая кислота) - 1,1 мг/мл, В5 (кальция пантотенат) - 0,3 мг/мл , витамин В6
+                            (никотиновая кислота) - 11 мг, В5 (кальция пантотенат) - 3 мг , витамин В6
                             (пиридоксина
-                            гидрохлорид - 0,09 мг/мл, витамин А (ретинола ацетат) - 36 мкг/мл, витамин В9 (фолиевая
+                            гидрохлорид - 0,9 мг, витамин А (ретинола ацетат) - 360 мкг, витамин В9 (фолиевая
                             кислота) -
-                            15,0 мкг/мл ;
-                            (1:1). </strong></div>
-                        <div className="mb-4"><strong className="font-medium"><span className="text-[#0C54A0]">Вспомогательные вещества: </span>растворитель
-                            вода очищенная, регулятор кислотности лимонная кислота,
-                            загуститель ксантановая камедь (Е 415), консервант калия сорбат (Е 202), консервант натрия
-                            бензоат (Е
-                            211), подсластитель сукралоза (Е 955), ароматизатор груши.</strong></div>
+                            150 мкг.</strong></div>
                         <div className="mb-4"><strong className="font-medium"><span
-                            className="text-[#0C54A0]">Описание: </span>Коричневая жидкость со вкусом груши</strong>
+                            className="text-[#0C54A0]">Описание: </span>Таблетка, круглая, коричнево-белого цвета, на изломе таблетка имеет светло-коричневое окрашивание и характерный составу запах и вкус.</strong>
                         </div>
 
                         <div className="mb-4"><strong className="font-medium"><span className="text-[#0C54A0]">Общие свойства: </span>
@@ -123,51 +108,45 @@ export default function Home() {
                         </strong></div>
                         <div className="mb-4"><strong className="font-medium"><span className="text-[#0C54A0]">Рекомендации по применению: </span>
                             <br />
-                            Сироп Когнит В® может быть рекомендован детям от 2-х лет и взрослым, как дополнительный источник
+                            Когнит В® таблетированная форма, рекомендован взрослым, как дополнительный источник
                             L-триптофана, глицина, магния, экстракта гинкго билоба и витаминов А, В3, В5, В6, В9, с целью
-                            улучшения адаптации детей и взрослых к эмоциональным, умственным и физическим нагрузкам.
+                            улучшения адаптации к эмоциональным, умственным и физическим нагрузкам.
                             Рекомендуется употреблять при проявлениях дисфункций нервной системы (тревожность,
                             эмоциональная нестабильность, нарушение сна), для улучшения памяти, процесса мышления,
-                            концентрации внимания для взрослых и детей.
+                            концентрации внимания.
                         </strong></div>
                         <div className="mb-4"><strong className="font-medium"><span className="text-[#0C54A0]">Способ применения </span>
-                            <br /> Рекомендуется потреблять в дневное время суток. Непосредственно во время еды или после еды.
-                            Перед употреблением флакон с сиропом тщательно встряхнуть!
+                            <br /> Рекомендуется потреблять непосредственно во время еды или после еды по 1 таблетке 2 раза в сутки.
                             <br />
-                            <img src="/imgc.png" alt="" />
-                            <br />
-                            Перед употреблением рекомендуется консультация врача. Продолжительность потребления сироп
-                            Когнит В® определяется индивидуально. Рекомендуемый срок потребления составляет до 3-х курсов в
+                            Перед употреблением рекомендуется консультация врача. Продолжительность потребления
+                            Когнит В® таблетированной формы определяется индивидуально. Рекомендуемый срок потребления составляет до 3-х курсов в
                             год по 1-2 месяца с перерывами в 1 месяц. В дальнейшем срок потребления рекомендуется врачом.
                         </strong></div>
                         <div className="mb-4"><strong className="font-medium"><span className="text-[#0C54A0]">Особые указания  </span>
                             <br />
-                            Сироп Когнит В® является биологически активной добавкой! Посоветуйтесь с специалистом перед
-                            применением. После первого открытия флакона хранить его плотно закрытым не более 30 дней.
+                            Когнит В® таблетированная форма, является биологически активной добавкой! Посоветуйтесь с специалистом перед
+                            применением. После первого открытия флакона хранить его плотно закрытым.
                             Не применять после окончания срока годности, указанного на упаковке.
                         </strong></div>
                         <div className="mb-4"><strong className="font-medium"><span className="text-[#0C54A0]">Предостережение </span>
                             <ul>
-                                <li>- Не использовать при индивидуальной непереносимости к ингредиентам, входящим в состав сиропа.</li>
+                                <li>- Не использовать при индивидуальной непереносимости к ингредиентам, входящим в состав препарата.</li>
                                 <li>- Не превышать суточное рекомендуемое количество потребления.</li>
                                 <li>- Не принимать после окончательной даты потребление указанной на упаковке.</li>
                                 <li>- Не следует использовать в качестве замены полноценного рациона питания.</li>
                                 <li>- Беременным и женщинам в период кормления грудью перед потреблением обязательна
-                                    консультация врача.</li>
+                                    консультация врача!</li>
                             </ul>
                         </strong></div>
                         <div className="mb-4"><strong className="font-medium"><span
                             className="text-[#0C54A0]">Условия хранения </span>
                             <br />
-                            Хранить в оригинальной упаковке при температуре не выше 25 °С. Не замораживать! Допустимо
-                            образование гелеобразной структуры, которая разрушается при встряхивании. Хранить в недоступном
-                            для детей месте. Не замораживать!
+                            Хранить в оригинальной упаковке при температуре не выше 25 °С. Хранить в недоступном
+                            для детей месте.
                         </strong></div>
                         <div className="mb-4"><strong className="font-medium"><span className="text-[#0C54A0]">Форма выпуска </span>
                             <br />
-                            Картонная пачка содержит 1 флакон из темного светозащитного флакона емкостью 100 мл (ml),
-                            закупоренный пластиковой крышкой с контролем первого открытия; дозирующую емкость. 1 флакон
-                            вместе с инструкцией по применению в картонной пачке.
+                            Картонная каробка содержит 1 пластиковый флакон, который содержит 30 таблеток, закупоренный пластиковой крышкой с контролем первого открытия, вместе с инструкцией по применению.
                         </strong></div>
                         <div className="mb-4"><strong className="font-medium"><span className="text-[#0C54A0]">Срок годности  </span>
                             <br />
@@ -207,7 +186,7 @@ export default function Home() {
                             spring_pharmaceutic@gmail.com
                         </a>
                         <div className="mb-5 flex gap-3 flex flex-wrap">
-                            <a href="/Kognit%20B%20instruksiya.pdf"
+                            <a href="/docs.pdf"
                                 className="px-3 py-2 bg-green-500 text-white inline-flex items-center gap-2 rounded-lg text-[12px] md:text-[16px]">
                                 СКАЧАТЬ ИНСТРУКЦИЮ
                                 <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 24 24"
