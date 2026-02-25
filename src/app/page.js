@@ -1,10 +1,58 @@
-import { NextSeo } from "next-seo";
-
+export const metadata = {
+    title: 'КогнитB® Сироп 100 мл — Инструкция по применению',
+    description: 'КогнитB® сироп 100 мл — для детей от 2-х лет и взрослых. Содержит экстракт Гинкго билоба, магний, глицин, L-триптофан и витамины группы В. Улучшает память, концентрацию внимания и когнитивные функции.',
+    keywords: ['КогнитB сироп', 'Когнит B сироп', 'сироп для памяти', 'гинкго билоба сироп', 'сироп для детей', 'когнитивные функции', 'Spring Pharmaceutic'],
+    openGraph: {
+        title: 'КогнитB® Сироп 100 мл — Инструкция по применению',
+        description: 'Сироп для улучшения памяти и когнитивных функций для детей от 2-х лет и взрослых',
+        url: 'https://kognitb.uz',
+        images: [
+            {
+                url: '/kognit1.webp',
+                width: 800,
+                height: 600,
+                alt: 'КогнитB® сироп 100 мл',
+            },
+        ],
+    },
+    alternates: {
+        canonical: 'https://kognitb.uz',
+    },
+};
 
 export default function Home() {
+    const jsonLd = {
+        '@context': 'https://schema.org',
+        '@type': 'Product',
+        name: 'КогнитB® Сироп 100 мл',
+        image: 'https://kognitb.uz/kognit1.webp',
+        description: 'КогнитB® сироп — биологически активная добавка для улучшения памяти, концентрации внимания и когнитивных функций. Для детей от 2-х лет и взрослых.',
+        brand: {
+            '@type': 'Brand',
+            name: 'КогнитB®',
+        },
+        manufacturer: {
+            '@type': 'Organization',
+            name: 'Spring Pharmaceutic',
+            url: 'https://kognitb.uz',
+            address: {
+                '@type': 'PostalAddress',
+                addressCountry: 'UZ',
+                addressRegion: 'Наманганская область',
+                addressLocality: 'Касансайский район',
+                streetAddress: 'Кукимбой, Навбахор МСГ, улица Булак, дом 129',
+            },
+            telephone: '+998996942363',
+        },
+        category: 'Биологически активные добавки',
+    };
 
     return (
         <>
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+            />
 
             <div className="xl:max-w-[1110px] my-0 mx-auto w-[90%]">
                 <div className="h-[80px] flex items-center justify-between">

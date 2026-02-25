@@ -1,28 +1,61 @@
 export const metadata = {
-    title: 'КогнитB® Таблетки №30 - Инструкция по применению',
-    description: 'КогнитB® таблетки №30 - биологически активная добавка для улучшения когнитивных функций, памяти и концентрации внимания. Содержит Гинкго билоба, магний, глицин, L-триптофан и витамины группы В.',
-    keywords: 'КогнитB, Когнит B, таблетки, гинкго билоба, память, концентрация, БАД, Spring Pharmaceutic',
+    title: 'КогнитB® Таблетки №30 — Инструкция по применению',
+    description: 'КогнитB® таблетки №30 — биологически активная добавка для взрослых. Содержит Гинкго билоба 120 мг, магний, глицин, L-триптофан и витамины группы В. Улучшает память, концентрацию внимания и когнитивные функции.',
+    keywords: ['КогнитB таблетки', 'Когнит B таблетки', 'таблетки для памяти', 'гинкго билоба таблетки', 'когнитивные функции', 'Spring Pharmaceutic', 'улучшение памяти'],
     openGraph: {
-        title: 'КогнитB® Таблетки №30',
-        description: 'Для улучшения когнитивных функций, памяти и концентрации внимания',
+        title: 'КогнитB® Таблетки №30 — Инструкция по применению',
+        description: 'Таблетки для улучшения памяти и когнитивных функций для взрослых',
         url: 'https://kognitb.uz/tablet',
-        siteName: 'КогнитB',
+        siteName: 'КогнитB®',
         images: [
             {
-                url: 'https://kognitb.uz/kognitb_tablets.webp',
+                url: '/kognitb_tablets.webp',
                 width: 800,
                 height: 600,
-                alt: 'КогнитB таблетки №30',
+                alt: 'КогнитB® таблетки №30',
             },
         ],
         locale: 'ru_RU',
         type: 'website',
     },
+    alternates: {
+        canonical: 'https://kognitb.uz/tablet',
+    },
 };
 
 export default function Tablet() {
+    const jsonLd = {
+        '@context': 'https://schema.org',
+        '@type': 'Product',
+        name: 'КогнитB® Таблетки №30',
+        image: 'https://kognitb.uz/kognitb_tablets.webp',
+        description: 'КогнитB® таблетки — биологически активная добавка для улучшения памяти, концентрации внимания и когнитивных функций. Для взрослых. 30 таблеток в упаковке.',
+        brand: {
+            '@type': 'Brand',
+            name: 'КогнитB®',
+        },
+        manufacturer: {
+            '@type': 'Organization',
+            name: 'Spring Pharmaceutic',
+            url: 'https://kognitb.uz',
+            address: {
+                '@type': 'PostalAddress',
+                addressCountry: 'UZ',
+                addressRegion: 'Наманганская область',
+                addressLocality: 'Касансайский район',
+                streetAddress: 'Кукимбой, Навбахор МСГ, улица Булак, дом 129',
+            },
+            telephone: '+998996942363',
+        },
+        category: 'Биологически активные добавки',
+    };
+
     return (
         <>
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+            />
             <div className="xl:max-w-[1110px] my-0 mx-auto w-[90%]">
                 <div className="h-[80px] flex items-center justify-between">
                     <a href="/">
