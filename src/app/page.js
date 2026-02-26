@@ -258,7 +258,7 @@ export default function Home() {
                             spring_pharmaceutic@gmail.com
                         </a>
                         <div className="mb-5 flex gap-3 flex flex-wrap">
-                            <a href="/Kognit%20B%20instruksiya.pdf"
+                            <a href="/kognitb-sirop-instruksiya.pdf"
                                 className="px-3 py-2 bg-green-500 text-white inline-flex items-center gap-2 rounded-lg text-[12px] md:text-[16px]">
                                 СКАЧАТЬ ИНСТРУКЦИЮ
                                 <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 24 24"
