@@ -26,18 +26,22 @@ export const metadata = {
 export default function Tablet() {
     const jsonLd = {
         '@context': 'https://schema.org',
-        '@type': 'Product',
-        name: 'КогнитB® Таблетки №30',
-        image: 'https://kognitb.uz/kognitb_tablets.webp',
+        '@type': 'MedicalWebPage',
+        name: 'КогнитB® Таблетки №30 — Инструкция по применению',
         description: 'КогнитB® таблетки — биологически активная добавка для улучшения памяти, концентрации внимания и когнитивных функций. Для взрослых. 30 таблеток в упаковке.',
-        brand: {
-            '@type': 'Brand',
-            name: 'КогнитB®',
+        url: 'https://kognitb.uz/tablet',
+        image: 'https://kognitb.uz/kognitb_tablets.webp',
+        about: {
+            '@type': 'DietarySupplement',
+            name: 'КогнитB® Таблетки №30',
+            activeIngredient: 'Гинкго билоба 120 мг, магний 100 мг, глицин 25 мг, L-триптофан 25 мг, витамины группы В, витамин А',
+            nonProprietaryName: 'Когнит B',
         },
-        manufacturer: {
+        publisher: {
             '@type': 'Organization',
             name: 'Spring Pharmaceutic',
             url: 'https://kognitb.uz',
+            logo: 'https://kognitb.uz/kognitb_tablets.webp',
             address: {
                 '@type': 'PostalAddress',
                 addressCountry: 'UZ',
@@ -47,7 +51,6 @@ export default function Tablet() {
             },
             telephone: '+998996942363',
         },
-        category: 'Биологически активные добавки',
     };
 
     return (

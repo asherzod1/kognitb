@@ -23,18 +23,22 @@ export const metadata = {
 export default function Home() {
     const jsonLd = {
         '@context': 'https://schema.org',
-        '@type': 'Product',
-        name: 'КогнитB® Сироп 100 мл',
-        image: 'https://kognitb.uz/kognit1.webp',
+        '@type': 'MedicalWebPage',
+        name: 'КогнитB® Сироп 100 мл — Инструкция по применению',
         description: 'КогнитB® сироп — биологически активная добавка для улучшения памяти, концентрации внимания и когнитивных функций. Для детей от 2-х лет и взрослых.',
-        brand: {
-            '@type': 'Brand',
-            name: 'КогнитB®',
+        url: 'https://kognitb.uz',
+        image: 'https://kognitb.uz/kognit1.webp',
+        about: {
+            '@type': 'DietarySupplement',
+            name: 'КогнитB® Сироп 100 мл',
+            activeIngredient: 'Гинкго билоба, магний, глицин, L-триптофан, витамины группы В, витамин А',
+            nonProprietaryName: 'Когнит B',
         },
-        manufacturer: {
+        publisher: {
             '@type': 'Organization',
             name: 'Spring Pharmaceutic',
             url: 'https://kognitb.uz',
+            logo: 'https://kognitb.uz/kognit1.webp',
             address: {
                 '@type': 'PostalAddress',
                 addressCountry: 'UZ',
@@ -44,7 +48,6 @@ export default function Home() {
             },
             telephone: '+998996942363',
         },
-        category: 'Биологически активные добавки',
     };
 
     return (
